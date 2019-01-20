@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "21FAA9EB8E6A99966E1441F663F7126F408BA336",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "21FAA9EB8E6A99966E1441F663F7126F408BA336" : 0,
+    "ED123B5AD229198927672F2EF8D1B5674E47CE98" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "51F409B9-84DC-441D-8731-82A0C9E85EB8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "21FAA9EB8E6A99966E1441F663F7126F408BA336" : "iOS-Zinnia-Japanese-Handwriting-Input",
+    "ED123B5AD229198927672F2EF8D1B5674E47CE98" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ZinniaCocoaTouch",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ZinniaCocoaTouch.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:shinjukunian\/iOS-Zinnia-Japanese-Handwriting-Input.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "21FAA9EB8E6A99966E1441F663F7126F408BA336"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:shinjukunian\/KanjiLookup.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ED123B5AD229198927672F2EF8D1B5674E47CE98"
+    }
+  ]
+}

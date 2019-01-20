@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>51F409B9-84DC-441D-8731-82A0C9E85EB8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ZinniaCocoaTouch</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>21FAA9EB8E6A99966E1441F663F7126F408BA336</key>
+		<string>github.com:shinjukunian/iOS-Zinnia-Japanese-Handwriting-Input.git</string>
+		<key>ED123B5AD229198927672F2EF8D1B5674E47CE98</key>
+		<string>github.com:shinjukunian/KanjiLookup.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ZinniaCocoaTouch.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>21FAA9EB8E6A99966E1441F663F7126F408BA336</key>
+		<string>../..</string>
+		<key>ED123B5AD229198927672F2EF8D1B5674E47CE98</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:shinjukunian/iOS-Zinnia-Japanese-Handwriting-Input.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>21FAA9EB8E6A99966E1441F663F7126F408BA336</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ED123B5AD229198927672F2EF8D1B5674E47CE98</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>21FAA9EB8E6A99966E1441F663F7126F408BA336</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS-Zinnia-Japanese-Handwriting-Input</string>
+		</dict>
+	</array>
+</dict>
+</plist>

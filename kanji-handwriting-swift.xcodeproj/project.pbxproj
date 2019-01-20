@@ -12,7 +12,70 @@
 		36A13E6621F2B02500E3D5F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36A13E6421F2B02500E3D5F9 /* Main.storyboard */; };
 		36A13E6821F2B02600E3D5F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36A13E6721F2B02600E3D5F9 /* Assets.xcassets */; };
 		36A13E6B21F2B02600E3D5F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36A13E6921F2B02600E3D5F9 /* LaunchScreen.storyboard */; };
+		36A13E8821F2CB1A00E3D5F9 /* ZinniaCocoaTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A13E7C21F2C99500E3D5F9 /* ZinniaCocoaTouch.framework */; };
+		36A13E8A21F2CC1B00E3D5F9 /* ZinniaCocoaTouch.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36A13E7C21F2C99500E3D5F9 /* ZinniaCocoaTouch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		36A13E9021F47DC000E3D5F9 /* DrawableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A13E8F21F47DC000E3D5F9 /* DrawableView.swift */; };
+		36A13E9221F47DC800E3D5F9 /* HandwritingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A13E9121F47DC800E3D5F9 /* HandwritingViewModel.swift */; };
+		36A13E9621F4856F00E3D5F9 /* HandwritingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A13E9521F4856F00E3D5F9 /* HandwritingCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36A13E7B21F2C99500E3D5F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36A13E7321F2C99400E3D5F9 /* ZinniaCocoaTouch.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B72741D41AA5643900914B7C;
+			remoteInfo = ZinniaCocoaTouch;
+		};
+		36A13E7D21F2C99500E3D5F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36A13E7321F2C99400E3D5F9 /* ZinniaCocoaTouch.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B72741DF1AA5643900914B7C;
+			remoteInfo = ZinniaCocoaTouchTests;
+		};
+		36A13E7F21F2C99500E3D5F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36A13E7321F2C99400E3D5F9 /* ZinniaCocoaTouch.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B725FBD01B05BD76002AAB18;
+			remoteInfo = ZinniaCocoa;
+		};
+		36A13E8121F2C99500E3D5F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36A13E7321F2C99400E3D5F9 /* ZinniaCocoaTouch.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B725FBDA1B05BD76002AAB18;
+			remoteInfo = ZinniaCocoaTests;
+		};
+		36A13E8321F2C99500E3D5F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36A13E7321F2C99400E3D5F9 /* ZinniaCocoaTouch.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5A94D6551F8E17E000234437;
+			remoteInfo = ZinniaCocoaWatch;
+		};
+		36A13E8521F2CAAA00E3D5F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36A13E7321F2C99400E3D5F9 /* ZinniaCocoaTouch.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B72741D31AA5643900914B7C;
+			remoteInfo = ZinniaCocoaTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		36A13E8921F2CC0400E3D5F9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				36A13E8A21F2CC1B00E3D5F9 /* ZinniaCocoaTouch.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		36A13E5D21F2B02500E3D5F9 /* kanji-handwriting-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kanji-handwriting-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +85,11 @@
 		36A13E6721F2B02600E3D5F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36A13E6A21F2B02600E3D5F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36A13E6C21F2B02600E3D5F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36A13E7321F2C99400E3D5F9 /* ZinniaCocoaTouch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZinniaCocoaTouch.xcodeproj; path = Zinnia/ZinniaCocoaTouch.xcodeproj; sourceTree = "<group>"; };
+		36A13E8F21F47DC000E3D5F9 /* DrawableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawableView.swift; sourceTree = "<group>"; };
+		36A13E9121F47DC800E3D5F9 /* HandwritingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandwritingViewModel.swift; sourceTree = "<group>"; };
+		36A13E9521F4856F00E3D5F9 /* HandwritingCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandwritingCollectionViewCell.swift; sourceTree = "<group>"; };
+		36A13E9821F48ECB00E3D5F9 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36A13E8821F2CB1A00E3D5F9 /* ZinniaCocoaTouch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +107,11 @@
 		36A13E5421F2B02500E3D5F9 = {
 			isa = PBXGroup;
 			children = (
+				36A13E8B21F476C900E3D5F9 /* SupportingFiles */,
+				36A13E7321F2C99400E3D5F9 /* ZinniaCocoaTouch.xcodeproj */,
 				36A13E5F21F2B02500E3D5F9 /* kanji-handwriting-swift */,
 				36A13E5E21F2B02500E3D5F9 /* Products */,
+				36A13E8721F2CB1A00E3D5F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +126,8 @@
 		36A13E5F21F2B02500E3D5F9 /* kanji-handwriting-swift */ = {
 			isa = PBXGroup;
 			children = (
+				36A13E8E21F47D5700E3D5F9 /* ViewModels */,
+				36A13E8D21F47D4C00E3D5F9 /* Views */,
 				36A13E6021F2B02500E3D5F9 /* AppDelegate.swift */,
 				36A13E6221F2B02500E3D5F9 /* ViewController.swift */,
 				36A13E6421F2B02500E3D5F9 /* Main.storyboard */,
@@ -62,6 +136,50 @@
 				36A13E6C21F2B02600E3D5F9 /* Info.plist */,
 			);
 			path = "kanji-handwriting-swift";
+			sourceTree = "<group>";
+		};
+		36A13E7421F2C99400E3D5F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36A13E7C21F2C99500E3D5F9 /* ZinniaCocoaTouch.framework */,
+				36A13E7E21F2C99500E3D5F9 /* ZinniaCocoaTouchTests.xctest */,
+				36A13E8021F2C99500E3D5F9 /* ZinniaCocoa.framework */,
+				36A13E8221F2C99500E3D5F9 /* ZinniaCocoaTests.xctest */,
+				36A13E8421F2C99500E3D5F9 /* ZinniaCocoaWatch.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36A13E8721F2CB1A00E3D5F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36A13E8B21F476C900E3D5F9 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				36A13E9821F48ECB00E3D5F9 /* Bridging-Header.h */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		36A13E8D21F47D4C00E3D5F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				36A13E9521F4856F00E3D5F9 /* HandwritingCollectionViewCell.swift */,
+				36A13E8F21F47DC000E3D5F9 /* DrawableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		36A13E8E21F47D5700E3D5F9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				36A13E9121F47DC800E3D5F9 /* HandwritingViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,10 +192,12 @@
 				36A13E5921F2B02500E3D5F9 /* Sources */,
 				36A13E5A21F2B02500E3D5F9 /* Frameworks */,
 				36A13E5B21F2B02500E3D5F9 /* Resources */,
+				36A13E8921F2CC0400E3D5F9 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				36A13E8621F2CAAA00E3D5F9 /* PBXTargetDependency */,
 			);
 			name = "kanji-handwriting-swift";
 			productName = "kanji-handwriting-swift";
@@ -110,12 +230,56 @@
 			mainGroup = 36A13E5421F2B02500E3D5F9;
 			productRefGroup = 36A13E5E21F2B02500E3D5F9 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 36A13E7421F2C99400E3D5F9 /* Products */;
+					ProjectRef = 36A13E7321F2C99400E3D5F9 /* ZinniaCocoaTouch.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				36A13E5C21F2B02500E3D5F9 /* kanji-handwriting-swift */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		36A13E7C21F2C99500E3D5F9 /* ZinniaCocoaTouch.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ZinniaCocoaTouch.framework;
+			remoteRef = 36A13E7B21F2C99500E3D5F9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		36A13E7E21F2C99500E3D5F9 /* ZinniaCocoaTouchTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ZinniaCocoaTouchTests.xctest;
+			remoteRef = 36A13E7D21F2C99500E3D5F9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		36A13E8021F2C99500E3D5F9 /* ZinniaCocoa.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ZinniaCocoa.framework;
+			remoteRef = 36A13E7F21F2C99500E3D5F9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		36A13E8221F2C99500E3D5F9 /* ZinniaCocoaTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ZinniaCocoaTests.xctest;
+			remoteRef = 36A13E8121F2C99500E3D5F9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		36A13E8421F2C99500E3D5F9 /* ZinniaCocoaWatch.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ZinniaCocoaWatch.framework;
+			remoteRef = 36A13E8321F2C99500E3D5F9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		36A13E5B21F2B02500E3D5F9 /* Resources */ = {
@@ -135,12 +299,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36A13E9221F47DC800E3D5F9 /* HandwritingViewModel.swift in Sources */,
+				36A13E9021F47DC000E3D5F9 /* DrawableView.swift in Sources */,
 				36A13E6321F2B02500E3D5F9 /* ViewController.swift in Sources */,
 				36A13E6121F2B02500E3D5F9 /* AppDelegate.swift in Sources */,
+				36A13E9621F4856F00E3D5F9 /* HandwritingCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36A13E8621F2CAAA00E3D5F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZinniaCocoaTouch;
+			targetProxy = 36A13E8521F2CAAA00E3D5F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		36A13E6421F2B02500E3D5F9 /* Main.storyboard */ = {
@@ -290,6 +465,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "me.tuanna.kanji-handwriting-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SupportingFiles/Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -307,6 +483,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "me.tuanna.kanji-handwriting-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SupportingFiles/Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

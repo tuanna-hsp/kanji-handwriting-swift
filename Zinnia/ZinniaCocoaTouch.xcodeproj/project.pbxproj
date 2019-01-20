@@ -1,0 +1,1136 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A3C393F1F8E40A0003B21C1 /* ZinniaCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = B725FBD41B05BD76002AAB18 /* ZinniaCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A3C39401F8E420B003B21C1 /* handwriting.model in Resources */ = {isa = PBXBuildFile; fileRef = B72742271AA565F100914B7C /* handwriting.model */; };
+		5A94D6591F8E17E000234437 /* ZinniaCocoaWatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A94D6571F8E17E000234437 /* ZinniaCocoaWatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A94D65D1F8E17EA00234437 /* Recognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = B727421F1AA5659100914B7C /* Recognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A94D65E1F8E17F200234437 /* Recognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B72742201AA5659100914B7C /* Recognizer.m */; };
+		5A94D65F1F8E17F200234437 /* Result.m in Sources */ = {isa = PBXBuildFile; fileRef = B72742221AA5659100914B7C /* Result.m */; };
+		5A94D6601F8E17F400234437 /* Result.h in Headers */ = {isa = PBXBuildFile; fileRef = B72742211AA5659100914B7C /* Result.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A94D6611F8E17FA00234437 /* character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B72741F11AA564C000914B7C /* character.cpp */; };
+		5A94D6621F8E17FD00234437 /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = B72741F21AA564C000914B7C /* common.h */; };
+		5A94D6631F8E180000234437 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = B72741F31AA564C000914B7C /* config.h */; };
+		5A94D6641F8E180300234437 /* feature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B72741F41AA564C000914B7C /* feature.cpp */; };
+		5A94D6651F8E180700234437 /* feature.h in Headers */ = {isa = PBXBuildFile; fileRef = B72741F51AA564C000914B7C /* feature.h */; };
+		5A94D6661F8E180C00234437 /* freelist.h in Headers */ = {isa = PBXBuildFile; fileRef = B72741F61AA564C000914B7C /* freelist.h */; };
+		5A94D6671F8E180C00234437 /* libzinnia.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B72741F71AA564C000914B7C /* libzinnia.cpp */; };
+		5A94D6681F8E181400234437 /* mmap.h in Headers */ = {isa = PBXBuildFile; fileRef = B72741F81AA564C000914B7C /* mmap.h */; };
+		5A94D6691F8E181700234437 /* param.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B72741F91AA564C000914B7C /* param.cpp */; };
+		5A94D66A1F8E181A00234437 /* param.h in Headers */ = {isa = PBXBuildFile; fileRef = B72741FA1AA564C000914B7C /* param.h */; };
+		5A94D66B1F8E181D00234437 /* recognizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B72741FB1AA564C000914B7C /* recognizer.cpp */; };
+		5A94D66C1F8E181F00234437 /* scoped_ptr.h in Headers */ = {isa = PBXBuildFile; fileRef = B72741FC1AA564C000914B7C /* scoped_ptr.h */; };
+		5A94D66D1F8E182200234437 /* sexp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B72741FD1AA564C000914B7C /* sexp.cpp */; };
+		5A94D66E1F8E182500234437 /* sexp.h in Headers */ = {isa = PBXBuildFile; fileRef = B72741FE1AA564C000914B7C /* sexp.h */; };
+		5A94D66F1F8E182700234437 /* stream_wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = B72741FF1AA564C000914B7C /* stream_wrapper.h */; };
+		5A94D6701F8E182B00234437 /* svm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B72742001AA564C000914B7C /* svm.cpp */; };
+		5A94D6711F8E182D00234437 /* svm.h in Headers */ = {isa = PBXBuildFile; fileRef = B72742011AA564C000914B7C /* svm.h */; };
+		5A94D6721F8E183000234437 /* trainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B72742021AA564C000914B7C /* trainer.cpp */; };
+		5A94D6731F8E183A00234437 /* zinnia.h in Headers */ = {isa = PBXBuildFile; fileRef = B72742061AA564C000914B7C /* zinnia.h */; };
+		5A94D6741F8E183D00234437 /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = B72588A41AA996C000BD42F7 /* COPYING */; };
+		5A94D6751F8E183E00234437 /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = B72588A41AA996C000BD42F7 /* COPYING */; };
+		5A94D6761F8E184400234437 /* handwriting.model in Resources */ = {isa = PBXBuildFile; fileRef = B72742271AA565F100914B7C /* handwriting.model */; };
+		5A94D6811F8E1ACD00234437 /* Recognizer+MacOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A94D67F1F8E1ACD00234437 /* Recognizer+MacOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A94D6821F8E1ACD00234437 /* Recognizer+MacOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A94D6801F8E1ACD00234437 /* Recognizer+MacOS.m */; };
+		5A94D6851F8E1C3200234437 /* Recognizer+iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A94D6831F8E1C3200234437 /* Recognizer+iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A94D6861F8E1C3200234437 /* Recognizer+iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A94D6841F8E1C3200234437 /* Recognizer+iOS.m */; };
+		B72588A81AA996C000BD42F7 /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = B72588A41AA996C000BD42F7 /* COPYING */; };
+		B72588A91AA996C000BD42F7 /* AUTHORS in Resources */ = {isa = PBXBuildFile; fileRef = B72588A51AA996C000BD42F7 /* AUTHORS */; };
+		B72588AA1AA996C000BD42F7 /* NEWS in Resources */ = {isa = PBXBuildFile; fileRef = B72588A61AA996C000BD42F7 /* NEWS */; };
+		B72588AB1AA996C000BD42F7 /* README in Resources */ = {isa = PBXBuildFile; fileRef = B72588A71AA996C000BD42F7 /* README */; };
+		B72588AD1AA99B4D00BD42F7 /* COPYING_LGPL in Resources */ = {isa = PBXBuildFile; fileRef = B72588AC1AA99B4D00BD42F7 /* COPYING_LGPL */; };
+		B725FBDB1B05BD77002AAB18 /* ZinniaCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B725FBD01B05BD76002AAB18 /* ZinniaCocoa.framework */; };
+		B725FBE21B05BD77002AAB18 /* ZinniaCocoaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B725FBE11B05BD77002AAB18 /* ZinniaCocoaTests.m */; };
+		B725FBEC1B05BD9B002AAB18 /* Recognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = B727421F1AA5659100914B7C /* Recognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B725FBED1B05BD9F002AAB18 /* Result.h in Headers */ = {isa = PBXBuildFile; fileRef = B72742211AA5659100914B7C /* Result.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B725FBF01B05BDA8002AAB18 /* Trainer.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C60F221B05B30E00BB9ACC /* Trainer.m */; };
+		B725FBF11B05BDA8002AAB18 /* Recognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B72742201AA5659100914B7C /* Recognizer.m */; };
+		B725FBF21B05BDA8002AAB18 /* Result.m in Sources */ = {isa = PBXBuildFile; fileRef = B72742221AA5659100914B7C /* Result.m */; };
+		B725FBF31B05BDB6002AAB18 /* character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B72741F11AA564C000914B7C /* character.cpp */; };
+		B725FBF41B05BDB6002AAB18 /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = B72741F21AA564C000914B7C /* common.h */; };
+		B725FBF51B05BDB6002AAB18 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = B72741F31AA564C000914B7C /* config.h */; };
+		B725FBF61B05BDB6002AAB18 /* feature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B72741F41AA564C000914B7C /* feature.cpp */; };
+		B725FBF71B05BDB6002AAB18 /* feature.h in Headers */ = {isa = PBXBuildFile; fileRef = B72741F51AA564C000914B7C /* feature.h */; };
+		B725FBF81B05BDB6002AAB18 /* freelist.h in Headers */ = {isa = PBXBuildFile; fileRef = B72741F61AA564C000914B7C /* freelist.h */; };
+		B725FBF91B05BDB6002AAB18 /* libzinnia.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B72741F71AA564C000914B7C /* libzinnia.cpp */; };
+		B725FBFA1B05BDB6002AAB18 /* mmap.h in Headers */ = {isa = PBXBuildFile; fileRef = B72741F81AA564C000914B7C /* mmap.h */; };
+		B725FBFB1B05BDB6002AAB18 /* param.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B72741F91AA564C000914B7C /* param.cpp */; };
+		B725FBFC1B05BDB6002AAB18 /* param.h in Headers */ = {isa = PBXBuildFile; fileRef = B72741FA1AA564C000914B7C /* param.h */; };
+		B725FBFD1B05BDB6002AAB18 /* recognizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B72741FB1AA564C000914B7C /* recognizer.cpp */; };
+		B725FBFE1B05BDB6002AAB18 /* scoped_ptr.h in Headers */ = {isa = PBXBuildFile; fileRef = B72741FC1AA564C000914B7C /* scoped_ptr.h */; };
+		B725FBFF1B05BDB6002AAB18 /* sexp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B72741FD1AA564C000914B7C /* sexp.cpp */; };
+		B725FC001B05BDB6002AAB18 /* sexp.h in Headers */ = {isa = PBXBuildFile; fileRef = B72741FE1AA564C000914B7C /* sexp.h */; };
+		B725FC011B05BDB6002AAB18 /* stream_wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = B72741FF1AA564C000914B7C /* stream_wrapper.h */; };
+		B725FC021B05BDB6002AAB18 /* svm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B72742001AA564C000914B7C /* svm.cpp */; };
+		B725FC031B05BDB6002AAB18 /* svm.h in Headers */ = {isa = PBXBuildFile; fileRef = B72742011AA564C000914B7C /* svm.h */; };
+		B725FC041B05BDB6002AAB18 /* trainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B72742021AA564C000914B7C /* trainer.cpp */; };
+		B725FC081B05BDB6002AAB18 /* zinnia.h in Headers */ = {isa = PBXBuildFile; fileRef = B72742061AA564C000914B7C /* zinnia.h */; };
+		B725FC0C1B05CAA7002AAB18 /* Trainer.m in Headers */ = {isa = PBXBuildFile; fileRef = B7C60F221B05B30E00BB9ACC /* Trainer.m */; };
+		B725FC0D1B05CAB6002AAB18 /* Trainer.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C60F211B05B30E00BB9ACC /* Trainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B72741DA1AA5643900914B7C /* ZinniaCocoaTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = B72741D91AA5643900914B7C /* ZinniaCocoaTouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B72741E01AA5643900914B7C /* ZinniaCocoaTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72741D41AA5643900914B7C /* ZinniaCocoaTouch.framework */; };
+		B72741E71AA5643900914B7C /* ZinniaCocoaTouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B72741E61AA5643900914B7C /* ZinniaCocoaTouchTests.m */; };
+		B72742071AA564C000914B7C /* character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B72741F11AA564C000914B7C /* character.cpp */; };
+		B72742081AA564C000914B7C /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = B72741F21AA564C000914B7C /* common.h */; };
+		B72742091AA564C000914B7C /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = B72741F31AA564C000914B7C /* config.h */; };
+		B727420A1AA564C000914B7C /* feature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B72741F41AA564C000914B7C /* feature.cpp */; };
+		B727420B1AA564C000914B7C /* feature.h in Headers */ = {isa = PBXBuildFile; fileRef = B72741F51AA564C000914B7C /* feature.h */; };
+		B727420C1AA564C000914B7C /* freelist.h in Headers */ = {isa = PBXBuildFile; fileRef = B72741F61AA564C000914B7C /* freelist.h */; };
+		B727420D1AA564C000914B7C /* libzinnia.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B72741F71AA564C000914B7C /* libzinnia.cpp */; };
+		B727420E1AA564C000914B7C /* mmap.h in Headers */ = {isa = PBXBuildFile; fileRef = B72741F81AA564C000914B7C /* mmap.h */; };
+		B727420F1AA564C000914B7C /* param.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B72741F91AA564C000914B7C /* param.cpp */; };
+		B72742101AA564C000914B7C /* param.h in Headers */ = {isa = PBXBuildFile; fileRef = B72741FA1AA564C000914B7C /* param.h */; };
+		B72742111AA564C000914B7C /* recognizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B72741FB1AA564C000914B7C /* recognizer.cpp */; };
+		B72742121AA564C000914B7C /* scoped_ptr.h in Headers */ = {isa = PBXBuildFile; fileRef = B72741FC1AA564C000914B7C /* scoped_ptr.h */; };
+		B72742131AA564C000914B7C /* sexp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B72741FD1AA564C000914B7C /* sexp.cpp */; };
+		B72742141AA564C000914B7C /* sexp.h in Headers */ = {isa = PBXBuildFile; fileRef = B72741FE1AA564C000914B7C /* sexp.h */; };
+		B72742151AA564C000914B7C /* stream_wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = B72741FF1AA564C000914B7C /* stream_wrapper.h */; };
+		B72742161AA564C000914B7C /* svm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B72742001AA564C000914B7C /* svm.cpp */; };
+		B72742171AA564C000914B7C /* svm.h in Headers */ = {isa = PBXBuildFile; fileRef = B72742011AA564C000914B7C /* svm.h */; };
+		B72742181AA564C000914B7C /* trainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B72742021AA564C000914B7C /* trainer.cpp */; };
+		B727421C1AA564C000914B7C /* zinnia.h in Headers */ = {isa = PBXBuildFile; fileRef = B72742061AA564C000914B7C /* zinnia.h */; };
+		B72742231AA5659100914B7C /* Recognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = B727421F1AA5659100914B7C /* Recognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B72742241AA5659100914B7C /* Recognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B72742201AA5659100914B7C /* Recognizer.m */; };
+		B72742251AA5659100914B7C /* Result.h in Headers */ = {isa = PBXBuildFile; fileRef = B72742211AA5659100914B7C /* Result.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B72742261AA5659100914B7C /* Result.m in Sources */ = {isa = PBXBuildFile; fileRef = B72742221AA5659100914B7C /* Result.m */; };
+		B72742281AA565F100914B7C /* handwriting.model in Resources */ = {isa = PBXBuildFile; fileRef = B72742271AA565F100914B7C /* handwriting.model */; };
+		B76BF34E1B838F43008C7B19 /* Trainer.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C60F211B05B30E00BB9ACC /* Trainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7C60F241B05B30E00BB9ACC /* Trainer.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C60F221B05B30E00BB9ACC /* Trainer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B725FBDC1B05BD77002AAB18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B72741CB1AA5643900914B7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B725FBCF1B05BD76002AAB18;
+			remoteInfo = ZinniaCocoa;
+		};
+		B72741E11AA5643900914B7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B72741CB1AA5643900914B7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B72741D31AA5643900914B7C;
+			remoteInfo = ZinniaCocoaTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A94D6551F8E17E000234437 /* ZinniaCocoaWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZinniaCocoaWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A94D6571F8E17E000234437 /* ZinniaCocoaWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZinniaCocoaWatch.h; sourceTree = "<group>"; };
+		5A94D6581F8E17E000234437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A94D67F1F8E1ACD00234437 /* Recognizer+MacOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recognizer+MacOS.h"; sourceTree = "<group>"; };
+		5A94D6801F8E1ACD00234437 /* Recognizer+MacOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Recognizer+MacOS.m"; sourceTree = "<group>"; };
+		5A94D6831F8E1C3200234437 /* Recognizer+iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recognizer+iOS.h"; sourceTree = "<group>"; };
+		5A94D6841F8E1C3200234437 /* Recognizer+iOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Recognizer+iOS.m"; sourceTree = "<group>"; };
+		B72588A41AA996C000BD42F7 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		B72588A51AA996C000BD42F7 /* AUTHORS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
+		B72588A61AA996C000BD42F7 /* NEWS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NEWS; sourceTree = "<group>"; };
+		B72588A71AA996C000BD42F7 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		B72588AC1AA99B4D00BD42F7 /* COPYING_LGPL */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING_LGPL; sourceTree = "<group>"; };
+		B725FBD01B05BD76002AAB18 /* ZinniaCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZinniaCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B725FBD31B05BD76002AAB18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B725FBD41B05BD76002AAB18 /* ZinniaCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZinniaCocoa.h; sourceTree = "<group>"; };
+		B725FBDA1B05BD76002AAB18 /* ZinniaCocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZinniaCocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B725FBE01B05BD77002AAB18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B725FBE11B05BD77002AAB18 /* ZinniaCocoaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZinniaCocoaTests.m; sourceTree = "<group>"; };
+		B72741D41AA5643900914B7C /* ZinniaCocoaTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZinniaCocoaTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B72741D81AA5643900914B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B72741D91AA5643900914B7C /* ZinniaCocoaTouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZinniaCocoaTouch.h; sourceTree = "<group>"; };
+		B72741DF1AA5643900914B7C /* ZinniaCocoaTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZinniaCocoaTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B72741E51AA5643900914B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B72741E61AA5643900914B7C /* ZinniaCocoaTouchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZinniaCocoaTouchTests.m; sourceTree = "<group>"; };
+		B72741F11AA564C000914B7C /* character.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = character.cpp; sourceTree = "<group>"; };
+		B72741F21AA564C000914B7C /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		B72741F31AA564C000914B7C /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		B72741F41AA564C000914B7C /* feature.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = feature.cpp; sourceTree = "<group>"; };
+		B72741F51AA564C000914B7C /* feature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feature.h; sourceTree = "<group>"; };
+		B72741F61AA564C000914B7C /* freelist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = freelist.h; sourceTree = "<group>"; };
+		B72741F71AA564C000914B7C /* libzinnia.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = libzinnia.cpp; sourceTree = "<group>"; };
+		B72741F81AA564C000914B7C /* mmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mmap.h; sourceTree = "<group>"; };
+		B72741F91AA564C000914B7C /* param.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = param.cpp; sourceTree = "<group>"; };
+		B72741FA1AA564C000914B7C /* param.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = param.h; sourceTree = "<group>"; };
+		B72741FB1AA564C000914B7C /* recognizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = recognizer.cpp; sourceTree = "<group>"; };
+		B72741FC1AA564C000914B7C /* scoped_ptr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scoped_ptr.h; sourceTree = "<group>"; };
+		B72741FD1AA564C000914B7C /* sexp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sexp.cpp; sourceTree = "<group>"; };
+		B72741FE1AA564C000914B7C /* sexp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sexp.h; sourceTree = "<group>"; };
+		B72741FF1AA564C000914B7C /* stream_wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stream_wrapper.h; sourceTree = "<group>"; };
+		B72742001AA564C000914B7C /* svm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = svm.cpp; sourceTree = "<group>"; };
+		B72742011AA564C000914B7C /* svm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svm.h; sourceTree = "<group>"; };
+		B72742021AA564C000914B7C /* trainer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = trainer.cpp; sourceTree = "<group>"; };
+		B72742031AA564C000914B7C /* zinnia_convert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zinnia_convert.cpp; sourceTree = "<group>"; };
+		B72742041AA564C000914B7C /* zinnia_learn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zinnia_learn.cpp; sourceTree = "<group>"; };
+		B72742051AA564C000914B7C /* zinnia.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zinnia.cpp; sourceTree = "<group>"; };
+		B72742061AA564C000914B7C /* zinnia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zinnia.h; sourceTree = "<group>"; };
+		B727421F1AA5659100914B7C /* Recognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recognizer.h; sourceTree = "<group>"; };
+		B72742201AA5659100914B7C /* Recognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recognizer.m; sourceTree = "<group>"; };
+		B72742211AA5659100914B7C /* Result.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Result.h; sourceTree = "<group>"; };
+		B72742221AA5659100914B7C /* Result.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Result.m; sourceTree = "<group>"; };
+		B72742271AA565F100914B7C /* handwriting.model */ = {isa = PBXFileReference; lastKnownFileType = file; path = handwriting.model; sourceTree = "<group>"; };
+		B7C60F211B05B30E00BB9ACC /* Trainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trainer.h; sourceTree = "<group>"; };
+		B7C60F221B05B30E00BB9ACC /* Trainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trainer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A94D6511F8E17E000234437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B725FBCC1B05BD76002AAB18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B725FBD71B05BD76002AAB18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B725FBDB1B05BD77002AAB18 /* ZinniaCocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B72741D01AA5643900914B7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B72741DC1AA5643900914B7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72741E01AA5643900914B7C /* ZinniaCocoaTouch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A94D6561F8E17E000234437 /* ZinniaCocoaWatch */ = {
+			isa = PBXGroup;
+			children = (
+				5A94D6571F8E17E000234437 /* ZinniaCocoaWatch.h */,
+				5A94D6581F8E17E000234437 /* Info.plist */,
+			);
+			path = ZinniaCocoaWatch;
+			sourceTree = "<group>";
+		};
+		B725FBD11B05BD76002AAB18 /* ZinniaCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				B725FBD41B05BD76002AAB18 /* ZinniaCocoa.h */,
+				B725FBD21B05BD76002AAB18 /* Supporting Files */,
+				5A94D67F1F8E1ACD00234437 /* Recognizer+MacOS.h */,
+				5A94D6801F8E1ACD00234437 /* Recognizer+MacOS.m */,
+			);
+			path = ZinniaCocoa;
+			sourceTree = "<group>";
+		};
+		B725FBD21B05BD76002AAB18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B725FBD31B05BD76002AAB18 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B725FBDE1B05BD77002AAB18 /* ZinniaCocoaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B725FBE11B05BD77002AAB18 /* ZinniaCocoaTests.m */,
+				B725FBDF1B05BD77002AAB18 /* Supporting Files */,
+			);
+			path = ZinniaCocoaTests;
+			sourceTree = "<group>";
+		};
+		B725FBDF1B05BD77002AAB18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B725FBE01B05BD77002AAB18 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B72741CA1AA5643900914B7C = {
+			isa = PBXGroup;
+			children = (
+				B72741D61AA5643900914B7C /* ZinniaCocoaTouch */,
+				B72741E31AA5643900914B7C /* ZinniaCocoaTouchTests */,
+				B725FBD11B05BD76002AAB18 /* ZinniaCocoa */,
+				B725FBDE1B05BD77002AAB18 /* ZinniaCocoaTests */,
+				5A94D6561F8E17E000234437 /* ZinniaCocoaWatch */,
+				B72741D51AA5643900914B7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B72741D51AA5643900914B7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B72741D41AA5643900914B7C /* ZinniaCocoaTouch.framework */,
+				B72741DF1AA5643900914B7C /* ZinniaCocoaTouchTests.xctest */,
+				B725FBD01B05BD76002AAB18 /* ZinniaCocoa.framework */,
+				B725FBDA1B05BD76002AAB18 /* ZinniaCocoaTests.xctest */,
+				5A94D6551F8E17E000234437 /* ZinniaCocoaWatch.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B72741D61AA5643900914B7C /* ZinniaCocoaTouch */ = {
+			isa = PBXGroup;
+			children = (
+				B7C60F211B05B30E00BB9ACC /* Trainer.h */,
+				B7C60F221B05B30E00BB9ACC /* Trainer.m */,
+				B72741D91AA5643900914B7C /* ZinniaCocoaTouch.h */,
+				B727421F1AA5659100914B7C /* Recognizer.h */,
+				B72742201AA5659100914B7C /* Recognizer.m */,
+				B72742211AA5659100914B7C /* Result.h */,
+				B72742221AA5659100914B7C /* Result.m */,
+				B72741F01AA5646400914B7C /* src */,
+				B72741D71AA5643900914B7C /* Supporting Files */,
+				5A94D6831F8E1C3200234437 /* Recognizer+iOS.h */,
+				5A94D6841F8E1C3200234437 /* Recognizer+iOS.m */,
+			);
+			path = ZinniaCocoaTouch;
+			sourceTree = "<group>";
+		};
+		B72741D71AA5643900914B7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B72588AC1AA99B4D00BD42F7 /* COPYING_LGPL */,
+				B72742271AA565F100914B7C /* handwriting.model */,
+				B72741D81AA5643900914B7C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B72741E31AA5643900914B7C /* ZinniaCocoaTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				B72741E61AA5643900914B7C /* ZinniaCocoaTouchTests.m */,
+				B72741E41AA5643900914B7C /* Supporting Files */,
+			);
+			path = ZinniaCocoaTouchTests;
+			sourceTree = "<group>";
+		};
+		B72741E41AA5643900914B7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B72741E51AA5643900914B7C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B72741F01AA5646400914B7C /* src */ = {
+			isa = PBXGroup;
+			children = (
+				B72741F11AA564C000914B7C /* character.cpp */,
+				B72741F21AA564C000914B7C /* common.h */,
+				B72741F31AA564C000914B7C /* config.h */,
+				B72741F41AA564C000914B7C /* feature.cpp */,
+				B72741F51AA564C000914B7C /* feature.h */,
+				B72741F61AA564C000914B7C /* freelist.h */,
+				B72741F71AA564C000914B7C /* libzinnia.cpp */,
+				B72741F81AA564C000914B7C /* mmap.h */,
+				B72741F91AA564C000914B7C /* param.cpp */,
+				B72741FA1AA564C000914B7C /* param.h */,
+				B72741FB1AA564C000914B7C /* recognizer.cpp */,
+				B72741FC1AA564C000914B7C /* scoped_ptr.h */,
+				B72741FD1AA564C000914B7C /* sexp.cpp */,
+				B72741FE1AA564C000914B7C /* sexp.h */,
+				B72741FF1AA564C000914B7C /* stream_wrapper.h */,
+				B72742001AA564C000914B7C /* svm.cpp */,
+				B72742011AA564C000914B7C /* svm.h */,
+				B72742021AA564C000914B7C /* trainer.cpp */,
+				B72742031AA564C000914B7C /* zinnia_convert.cpp */,
+				B72742041AA564C000914B7C /* zinnia_learn.cpp */,
+				B72742051AA564C000914B7C /* zinnia.cpp */,
+				B72742061AA564C000914B7C /* zinnia.h */,
+				B72588A41AA996C000BD42F7 /* COPYING */,
+				B72588A51AA996C000BD42F7 /* AUTHORS */,
+				B72588A61AA996C000BD42F7 /* NEWS */,
+				B72588A71AA996C000BD42F7 /* README */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5A94D6521F8E17E000234437 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A94D65D1F8E17EA00234437 /* Recognizer.h in Headers */,
+				5A94D66C1F8E181F00234437 /* scoped_ptr.h in Headers */,
+				5A94D6661F8E180C00234437 /* freelist.h in Headers */,
+				5A94D6731F8E183A00234437 /* zinnia.h in Headers */,
+				5A94D6591F8E17E000234437 /* ZinniaCocoaWatch.h in Headers */,
+				5A94D66A1F8E181A00234437 /* param.h in Headers */,
+				5A94D66E1F8E182500234437 /* sexp.h in Headers */,
+				5A94D6601F8E17F400234437 /* Result.h in Headers */,
+				5A94D6651F8E180700234437 /* feature.h in Headers */,
+				5A94D6711F8E182D00234437 /* svm.h in Headers */,
+				5A94D6621F8E17FD00234437 /* common.h in Headers */,
+				5A94D6631F8E180000234437 /* config.h in Headers */,
+				5A94D66F1F8E182700234437 /* stream_wrapper.h in Headers */,
+				5A94D6681F8E181400234437 /* mmap.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B725FBCD1B05BD76002AAB18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B725FC001B05BDB6002AAB18 /* sexp.h in Headers */,
+				B725FBFC1B05BDB6002AAB18 /* param.h in Headers */,
+				5A94D6811F8E1ACD00234437 /* Recognizer+MacOS.h in Headers */,
+				B725FC031B05BDB6002AAB18 /* svm.h in Headers */,
+				B725FC0C1B05CAA7002AAB18 /* Trainer.m in Headers */,
+				B725FBF41B05BDB6002AAB18 /* common.h in Headers */,
+				B725FBF71B05BDB6002AAB18 /* feature.h in Headers */,
+				B725FC0D1B05CAB6002AAB18 /* Trainer.h in Headers */,
+				B725FC081B05BDB6002AAB18 /* zinnia.h in Headers */,
+				B725FC011B05BDB6002AAB18 /* stream_wrapper.h in Headers */,
+				B725FBFE1B05BDB6002AAB18 /* scoped_ptr.h in Headers */,
+				B725FBED1B05BD9F002AAB18 /* Result.h in Headers */,
+				B725FBFA1B05BDB6002AAB18 /* mmap.h in Headers */,
+				B725FBF81B05BDB6002AAB18 /* freelist.h in Headers */,
+				B725FBEC1B05BD9B002AAB18 /* Recognizer.h in Headers */,
+				B725FBF51B05BDB6002AAB18 /* config.h in Headers */,
+				5A3C393F1F8E40A0003B21C1 /* ZinniaCocoa.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B72741D11AA5643900914B7C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72742171AA564C000914B7C /* svm.h in Headers */,
+				B72742231AA5659100914B7C /* Recognizer.h in Headers */,
+				B72742251AA5659100914B7C /* Result.h in Headers */,
+				B72742151AA564C000914B7C /* stream_wrapper.h in Headers */,
+				5A94D6851F8E1C3200234437 /* Recognizer+iOS.h in Headers */,
+				B727420C1AA564C000914B7C /* freelist.h in Headers */,
+				B72741DA1AA5643900914B7C /* ZinniaCocoaTouch.h in Headers */,
+				B76BF34E1B838F43008C7B19 /* Trainer.h in Headers */,
+				B72742081AA564C000914B7C /* common.h in Headers */,
+				B72742091AA564C000914B7C /* config.h in Headers */,
+				B727420B1AA564C000914B7C /* feature.h in Headers */,
+				B72742121AA564C000914B7C /* scoped_ptr.h in Headers */,
+				B72742141AA564C000914B7C /* sexp.h in Headers */,
+				B727420E1AA564C000914B7C /* mmap.h in Headers */,
+				B72742101AA564C000914B7C /* param.h in Headers */,
+				B727421C1AA564C000914B7C /* zinnia.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5A94D6541F8E17E000234437 /* ZinniaCocoaWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A94D65A1F8E17E000234437 /* Build configuration list for PBXNativeTarget "ZinniaCocoaWatch" */;
+			buildPhases = (
+				5A94D6501F8E17E000234437 /* Sources */,
+				5A94D6511F8E17E000234437 /* Frameworks */,
+				5A94D6521F8E17E000234437 /* Headers */,
+				5A94D6531F8E17E000234437 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZinniaCocoaWatch;
+			productName = ZinniaCocoaWatch;
+			productReference = 5A94D6551F8E17E000234437 /* ZinniaCocoaWatch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B725FBCF1B05BD76002AAB18 /* ZinniaCocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B725FBE71B05BD77002AAB18 /* Build configuration list for PBXNativeTarget "ZinniaCocoa" */;
+			buildPhases = (
+				B725FBCB1B05BD76002AAB18 /* Sources */,
+				B725FBCC1B05BD76002AAB18 /* Frameworks */,
+				B725FBCD1B05BD76002AAB18 /* Headers */,
+				B725FBCE1B05BD76002AAB18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZinniaCocoa;
+			productName = ZinniaCocoa;
+			productReference = B725FBD01B05BD76002AAB18 /* ZinniaCocoa.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B725FBD91B05BD76002AAB18 /* ZinniaCocoaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B725FBE81B05BD77002AAB18 /* Build configuration list for PBXNativeTarget "ZinniaCocoaTests" */;
+			buildPhases = (
+				B725FBD61B05BD76002AAB18 /* Sources */,
+				B725FBD71B05BD76002AAB18 /* Frameworks */,
+				B725FBD81B05BD76002AAB18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B725FBDD1B05BD77002AAB18 /* PBXTargetDependency */,
+			);
+			name = ZinniaCocoaTests;
+			productName = ZinniaCocoaTests;
+			productReference = B725FBDA1B05BD76002AAB18 /* ZinniaCocoaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B72741D31AA5643900914B7C /* ZinniaCocoaTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B72741EA1AA5643900914B7C /* Build configuration list for PBXNativeTarget "ZinniaCocoaTouch" */;
+			buildPhases = (
+				B72741CF1AA5643900914B7C /* Sources */,
+				B72741D01AA5643900914B7C /* Frameworks */,
+				B72741D11AA5643900914B7C /* Headers */,
+				B72741D21AA5643900914B7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZinniaCocoaTouch;
+			productName = ZinniaCocoaTouch;
+			productReference = B72741D41AA5643900914B7C /* ZinniaCocoaTouch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B72741DE1AA5643900914B7C /* ZinniaCocoaTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B72741ED1AA5643900914B7C /* Build configuration list for PBXNativeTarget "ZinniaCocoaTouchTests" */;
+			buildPhases = (
+				B72741DB1AA5643900914B7C /* Sources */,
+				B72741DC1AA5643900914B7C /* Frameworks */,
+				B72741DD1AA5643900914B7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B72741E21AA5643900914B7C /* PBXTargetDependency */,
+			);
+			name = ZinniaCocoaTouchTests;
+			productName = ZinniaCocoaTouchTests;
+			productReference = B72741DF1AA5643900914B7C /* ZinniaCocoaTouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B72741CB1AA5643900914B7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Morten Bertz";
+				TargetAttributes = {
+					5A94D6541F8E17E000234437 = {
+						CreatedOnToolsVersion = 9.1;
+						DevelopmentTeam = DVQ96RL2KL;
+						ProvisioningStyle = Automatic;
+					};
+					B725FBCF1B05BD76002AAB18 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					B725FBD91B05BD76002AAB18 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					B72741D31AA5643900914B7C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B72741DE1AA5643900914B7C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = B72741CE1AA5643900914B7C /* Build configuration list for PBXProject "ZinniaCocoaTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B72741CA1AA5643900914B7C;
+			productRefGroup = B72741D51AA5643900914B7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B72741D31AA5643900914B7C /* ZinniaCocoaTouch */,
+				B72741DE1AA5643900914B7C /* ZinniaCocoaTouchTests */,
+				B725FBCF1B05BD76002AAB18 /* ZinniaCocoa */,
+				B725FBD91B05BD76002AAB18 /* ZinniaCocoaTests */,
+				5A94D6541F8E17E000234437 /* ZinniaCocoaWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A94D6531F8E17E000234437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A94D6741F8E183D00234437 /* COPYING in Resources */,
+				5A94D6761F8E184400234437 /* handwriting.model in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B725FBCE1B05BD76002AAB18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A94D6751F8E183E00234437 /* COPYING in Resources */,
+				5A3C39401F8E420B003B21C1 /* handwriting.model in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B725FBD81B05BD76002AAB18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B72741D21AA5643900914B7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72588AB1AA996C000BD42F7 /* README in Resources */,
+				B72588AD1AA99B4D00BD42F7 /* COPYING_LGPL in Resources */,
+				B72588A91AA996C000BD42F7 /* AUTHORS in Resources */,
+				B72588AA1AA996C000BD42F7 /* NEWS in Resources */,
+				B72588A81AA996C000BD42F7 /* COPYING in Resources */,
+				B72742281AA565F100914B7C /* handwriting.model in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B72741DD1AA5643900914B7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A94D6501F8E17E000234437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A94D6701F8E182B00234437 /* svm.cpp in Sources */,
+				5A94D6641F8E180300234437 /* feature.cpp in Sources */,
+				5A94D66D1F8E182200234437 /* sexp.cpp in Sources */,
+				5A94D65F1F8E17F200234437 /* Result.m in Sources */,
+				5A94D65E1F8E17F200234437 /* Recognizer.m in Sources */,
+				5A94D6721F8E183000234437 /* trainer.cpp in Sources */,
+				5A94D6671F8E180C00234437 /* libzinnia.cpp in Sources */,
+				5A94D66B1F8E181D00234437 /* recognizer.cpp in Sources */,
+				5A94D6611F8E17FA00234437 /* character.cpp in Sources */,
+				5A94D6691F8E181700234437 /* param.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B725FBCB1B05BD76002AAB18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B725FC021B05BDB6002AAB18 /* svm.cpp in Sources */,
+				B725FBF91B05BDB6002AAB18 /* libzinnia.cpp in Sources */,
+				B725FBF21B05BDA8002AAB18 /* Result.m in Sources */,
+				B725FBFF1B05BDB6002AAB18 /* sexp.cpp in Sources */,
+				B725FBF01B05BDA8002AAB18 /* Trainer.m in Sources */,
+				B725FBF61B05BDB6002AAB18 /* feature.cpp in Sources */,
+				B725FBF11B05BDA8002AAB18 /* Recognizer.m in Sources */,
+				B725FBF31B05BDB6002AAB18 /* character.cpp in Sources */,
+				B725FBFB1B05BDB6002AAB18 /* param.cpp in Sources */,
+				B725FC041B05BDB6002AAB18 /* trainer.cpp in Sources */,
+				B725FBFD1B05BDB6002AAB18 /* recognizer.cpp in Sources */,
+				5A94D6821F8E1ACD00234437 /* Recognizer+MacOS.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B725FBD61B05BD76002AAB18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B725FBE21B05BD77002AAB18 /* ZinniaCocoaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B72741CF1AA5643900914B7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72742111AA564C000914B7C /* recognizer.cpp in Sources */,
+				B7C60F241B05B30E00BB9ACC /* Trainer.m in Sources */,
+				B72742181AA564C000914B7C /* trainer.cpp in Sources */,
+				B72742261AA5659100914B7C /* Result.m in Sources */,
+				B727420D1AA564C000914B7C /* libzinnia.cpp in Sources */,
+				5A94D6861F8E1C3200234437 /* Recognizer+iOS.m in Sources */,
+				B727420A1AA564C000914B7C /* feature.cpp in Sources */,
+				B72742161AA564C000914B7C /* svm.cpp in Sources */,
+				B72742071AA564C000914B7C /* character.cpp in Sources */,
+				B727420F1AA564C000914B7C /* param.cpp in Sources */,
+				B72742241AA5659100914B7C /* Recognizer.m in Sources */,
+				B72742131AA564C000914B7C /* sexp.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B72741DB1AA5643900914B7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72741E71AA5643900914B7C /* ZinniaCocoaTouchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B725FBDD1B05BD77002AAB18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B725FBCF1B05BD76002AAB18 /* ZinniaCocoa */;
+			targetProxy = B725FBDC1B05BD77002AAB18 /* PBXContainerItemProxy */;
+		};
+		B72741E21AA5643900914B7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B72741D31AA5643900914B7C /* ZinniaCocoaTouch */;
+			targetProxy = B72741E11AA5643900914B7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5A94D65B1F8E17E000234437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = DVQ96RL2KL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PREPROCESSOR_DEFINITIONS = HAVE_CONFIG_H;
+				HEADER_SEARCH_PATHS = ./ZinniaCocoaTouch;
+				INFOPLIST_FILE = ZinniaCocoaWatch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "-DWATCH_OS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.telethon.ZinniaCocoaWatch;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		5A94D65C1F8E17E000234437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = DVQ96RL2KL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PREPROCESSOR_DEFINITIONS = HAVE_CONFIG_H;
+				HEADER_SEARCH_PATHS = ./ZinniaCocoaTouch;
+				INFOPLIST_FILE = ZinniaCocoaWatch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "-DWATCH_OS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.telethon.ZinniaCocoaWatch;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		B725FBE31B05BD77002AAB18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = HAVE_CONFIG_H;
+				INFOPLIST_FILE = ZinniaCocoa/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "MB.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B725FBE41B05BD77002AAB18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = HAVE_CONFIG_H;
+				INFOPLIST_FILE = ZinniaCocoa/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "MB.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B725FBE51B05BD77002AAB18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZinniaCocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "MB.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B725FBE61B05BD77002AAB18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = ZinniaCocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "MB.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B72741E81AA5643900914B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B72741E91AA5643900914B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B72741EB1AA5643900914B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = HAVE_CONFIG_H;
+				INFOPLIST_FILE = ZinniaCocoaTouch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MB.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		B72741EC1AA5643900914B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = HAVE_CONFIG_H;
+				INFOPLIST_FILE = ZinniaCocoaTouch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MB.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		B72741EE1AA5643900914B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MB.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B72741EF1AA5643900914B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MB.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A94D65A1F8E17E000234437 /* Build configuration list for PBXNativeTarget "ZinniaCocoaWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A94D65B1F8E17E000234437 /* Debug */,
+				5A94D65C1F8E17E000234437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B725FBE71B05BD77002AAB18 /* Build configuration list for PBXNativeTarget "ZinniaCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B725FBE31B05BD77002AAB18 /* Debug */,
+				B725FBE41B05BD77002AAB18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B725FBE81B05BD77002AAB18 /* Build configuration list for PBXNativeTarget "ZinniaCocoaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B725FBE51B05BD77002AAB18 /* Debug */,
+				B725FBE61B05BD77002AAB18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B72741CE1AA5643900914B7C /* Build configuration list for PBXProject "ZinniaCocoaTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B72741E81AA5643900914B7C /* Debug */,
+				B72741E91AA5643900914B7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B72741EA1AA5643900914B7C /* Build configuration list for PBXNativeTarget "ZinniaCocoaTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B72741EB1AA5643900914B7C /* Debug */,
+				B72741EC1AA5643900914B7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B72741ED1AA5643900914B7C /* Build configuration list for PBXNativeTarget "ZinniaCocoaTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B72741EE1AA5643900914B7C /* Debug */,
+				B72741EF1AA5643900914B7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B72741CB1AA5643900914B7C /* Project object */;
+}
