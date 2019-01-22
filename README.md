@@ -5,10 +5,10 @@
 ### Overview
 [Zinnia](http://taku910.github.io/zinnia/) is a great handwriting regconition library based on SVM. Our [Japanese dictionary app](https://itunes.apple.com/jp/app/suge-dict-tu-dien-nhat-viet/id1446211651) use a customized version of Zinnia, called [ZinnaCocoaTouch](https://github.com/shinjukunian/iOS-Zinnia-Japanese-Handwriting-Input), as the Kanji input engine.
 
-This sample demonstrates how to use ZinnaCocoaTouch (which already provided the model and interface implementation in **Objective-C**) in a **Swift** project.
-It is written in Swift 4 and XCode 10.1.
+This sample demonstrates how to use ZinnaCocoaTouch (which already provided the model and interface implementation in *Objective-C*) in an iOS project.
+It is written in Swift 4 with XCode 10.1.
 
-### Intergrate the library to your project
+### Intergrate Zinnia to your existing project
 The process is a bit long but fairly simple. 
 Look [here](https://github.com/tuanna-hsp/kanji-handwriting-swift/blob/master/INTERGRATE_TO_EXISTING_PROJECT.md) for detailed instructions.
 
