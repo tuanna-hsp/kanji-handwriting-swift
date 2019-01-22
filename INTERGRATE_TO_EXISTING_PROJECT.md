@@ -1,4 +1,4 @@
-## Intergrate Zinnia to an existing project
+## Integrate Zinnia to an existing project
 
 #### 1. Download the [ZinnaCocoaTouch](https://github.com/shinjukunian/iOS-Zinnia-Japanese-Handwriting-Input) library.
 and put it somewhere in your working directory.
@@ -43,4 +43,4 @@ If your project doesn't compile, check the **Build Settings** for whether the he
 
 ![](https://raw.githubusercontent.com/tuanna-hsp/file-hosting/master/Repo/kanji-handwriting-swift/10.jpeg)
 
-**That's it! You has successfully intergrated Zinnia to your project. Happy coding!**
+**That's it! You have successfully integrated Zinnia to your project. Happy coding!**
