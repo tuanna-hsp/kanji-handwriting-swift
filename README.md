@@ -15,7 +15,7 @@ Look [here](https://github.com/tuanna-hsp/kanji-handwriting-swift/blob/master/IN
 ### How to use the library
 See [DrawableView.swift](https://github.com/tuanna-hsp/kanji-handwriting-swift/blob/master/kanji-handwriting-swift/Views/DrawableView.swift) for a simple implementation of the drawing canvas and [HandritingViewModel.swift](https://github.com/tuanna-hsp/kanji-handwriting-swift/blob/master/kanji-handwriting-swift/ViewModels/HandwritingViewModel.swift) on how to use the library.
 
-Basically, we create an instance of `Recognizer` and for each newly drawn stroke, we feed that to `Recognizer.classify()` method, which accepts an `[NSValue]` as the argument.
+Basically, we create an instance of `Recognizer` and for each newly drawn stroke, feed that to `Recognizer.classify()` method which accepts an `[NSValue]` as the argument.
 The method returns a `Result` that represent the classified values ordered by confidence. Then we can apply `result!.map { $0.value }` to get an array of `String`, each of which represents a kanji.
 
 ### Note
